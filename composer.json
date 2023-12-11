@@ -1,0 +1,24 @@
+{
+    "name": "lightweight/magento2.module.sales-order-document-export",
+    "description": "Module to export sales documents to a specific directory as soon as they exist",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "require": {
+        "magento/module-sales": "102.0.*"
+    },
+    "authors": [
+        {
+            "name": "Sebastian Wilhelm",
+            "email": "sebastian.wilhelm@7thsense.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lightweight\\SalesOrderDocumentExport\\": ""
+        }
+    }
+}
