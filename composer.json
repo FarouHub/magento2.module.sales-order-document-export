@@ -4,7 +4,7 @@
     "type": "magento2-module",
     "license": "proprietary",
     "require": {
-        "magento/module-sales": "102.0.*"
+        "magento/module-sales": "103.0.*"
     },
     "authors": [
         {
